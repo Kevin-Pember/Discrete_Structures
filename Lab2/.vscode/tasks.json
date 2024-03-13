@@ -5,6 +5,7 @@
         "args": [
             "${workspaceFolder}/*.cpp",
             //"${fileDirname}\\**.h",
+            "-std=c++11",
             "-o",
             "${fileDirname}\\${fileBasenameNoExtension}.exe",
         ]
