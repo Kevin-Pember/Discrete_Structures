@@ -3,8 +3,7 @@
         {
             "label": "g++.exe build active file",
         "args": [
-            "-g",
-            "${fileDirname}\\**.cpp",
+            "${workspaceFolder}/*.cpp",
             //"${fileDirname}\\**.h",
             "-o",
             "${fileDirname}\\${fileBasenameNoExtension}.exe",

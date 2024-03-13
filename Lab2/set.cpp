@@ -19,7 +19,7 @@ Set<T>::Set(const T a[], size_t size) : s{ a, a + size }  {}
 #include <initializer_list> // Include the <initializer_list> header
 
 template <typename T>
-Set<T>::Set(std::initializer_list<T> l) : s{ l.begin(), l.end() } {}
+Set<T>::Set(initializer_list<T> l) : s{ l.begin(), l.end() } {}
 
 template <typename T>
 Set<T>::Set(const Set<T>& s1) : s(s1.s.begin(), s1.s.end()) {}
